@@ -2,8 +2,7 @@
 //  WebSocketServer.swift
 //  SignalingServer
 //
-//  Created by stasel on 15/07/2019.
-//  Copyright © 2019 stasel. All rights reserved.
+//  Created by DEEP BHUPATKAR on 22/06/24.
 //
 
 import Foundation
