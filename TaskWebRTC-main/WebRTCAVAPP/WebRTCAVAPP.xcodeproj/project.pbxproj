@@ -19,7 +19,6 @@
 		2C520BBD2C26BFA800A68C87 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C520BBC2C26BFA800A68C87 /* MainViewController.swift */; };
 		2C520BBF2C26BFC800A68C87 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C520BBE2C26BFC800A68C87 /* VideoViewController.swift */; };
 		2C520BC62C26C04B00A68C87 /* NativeWebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C520BC52C26C04B00A68C87 /* NativeWebSocket.swift */; };
-		2C520BC82C26C05900A68C87 /* StarscreamProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C520BC72C26C05900A68C87 /* StarscreamProvider.swift */; };
 		2C520BCA2C26C06E00A68C87 /* WebSocketProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C520BC92C26C06E00A68C87 /* WebSocketProvider.swift */; };
 		2C520BCC2C26C07F00A68C87 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C520BCB2C26C07F00A68C87 /* Message.swift */; };
 		2C520BCE2C26C09C00A68C87 /* SignalingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C520BCD2C26C09C00A68C87 /* SignalingClient.swift */; };
@@ -42,7 +41,6 @@
 		2C520BBC2C26BFA800A68C87 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		2C520BBE2C26BFC800A68C87 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		2C520BC52C26C04B00A68C87 /* NativeWebSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeWebSocket.swift; sourceTree = "<group>"; };
-		2C520BC72C26C05900A68C87 /* StarscreamProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarscreamProvider.swift; sourceTree = "<group>"; };
 		2C520BC92C26C06E00A68C87 /* WebSocketProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketProvider.swift; sourceTree = "<group>"; };
 		2C520BCB2C26C07F00A68C87 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		2C520BCD2C26C09C00A68C87 /* SignalingClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalingClient.swift; sourceTree = "<group>"; };
@@ -149,7 +147,6 @@
 			isa = PBXGroup;
 			children = (
 				2C520BC52C26C04B00A68C87 /* NativeWebSocket.swift */,
-				2C520BC72C26C05900A68C87 /* StarscreamProvider.swift */,
 				2C520BC92C26C06E00A68C87 /* WebSocketProvider.swift */,
 			);
 			path = WebSocketProvider;
@@ -236,7 +233,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C520BCA2C26C06E00A68C87 /* WebSocketProvider.swift in Sources */,
-				2C520BC82C26C05900A68C87 /* StarscreamProvider.swift in Sources */,
 				2C520BBD2C26BFA800A68C87 /* MainViewController.swift in Sources */,
 				2C752D612C274E95005646E1 /* Config.swift in Sources */,
 				2C520BBF2C26BFC800A68C87 /* VideoViewController.swift in Sources */,

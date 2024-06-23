@@ -7,7 +7,7 @@
 
 import Foundation
 
-@available(iOS 13.0, *)
+//@available(iOS 13.0, *)
 class NativeWebSocket: NSObject, WebSocketProvider {
     
     var delegate: WebSocketProviderDelegate?
@@ -57,7 +57,7 @@ class NativeWebSocket: NSObject, WebSocketProvider {
     }
 }
 
-@available(iOS 13.0, *)
+//@available(iOS 13.0, *)
 extension NativeWebSocket: URLSessionWebSocketDelegate, URLSessionDelegate  {
     func urlSession(_ session: URLSession, webSocketTask: URLSessionWebSocketTask, didOpenWithProtocol protocol: String?) {
         self.delegate?.webSocketDidConnect(self)
