@@ -65,7 +65,9 @@ The mechanism used for establishing, coordinating, and controlling communication
     ```
 3. Navigate to the TaskWebRTC-main folder. In TaskWebRTC-main, open the folder called WebRTCAVAPP. In that folder, run WebRTCAVAPP.xcodeproj to launch the app in xcode.
 
-4. Navigate to the Swift folder available in Final-WebRTC. In the Swift folder, run SignalingServer.xcodeproj.
+4. IMP Make sure in Config.Swift file in line : defaultSignalingServerUrl = URL(string: "ws://YOURMAC'S IP:8080”) You put your Mac IP.
+
+5. Navigate to the Swift folder available in Final-WebRTC. In the Swift folder, run SignalingServer.xcodeproj.
    
   ## Run instructions
   
