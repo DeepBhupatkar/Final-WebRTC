@@ -99,4 +99,4 @@ The mechanism used for establishing, coordinating, and controlling communication
 
 5. Create a pull request.
 
-*Thank You For Checking out the WebRTC iOS Application*
+*Thank You For Checking out the WebRTC iOS Application.*
