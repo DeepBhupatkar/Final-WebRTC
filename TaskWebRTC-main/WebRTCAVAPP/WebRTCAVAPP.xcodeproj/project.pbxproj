@@ -26,7 +26,7 @@
 		2C520BD02C26C0B500A68C87 /* WebRTCClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C520BCF2C26C0B500A68C87 /* WebRTCClient.swift */; };
 		2C752D612C274E95005646E1 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C752D602C274E95005646E1 /* Config.swift */; };
 		2C752D632C275050005646E1 /* VideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C752D622C275050005646E1 /* VideoViewController.xib */; };
-		2C752D652C27507A005646E1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C752D642C27507A005646E1 /* MainViewController.xib */; };
+		2C88B4032C27F57D0069909C /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C88B4022C27F57D0069909C /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,7 +49,7 @@
 		2C520BCF2C26C0B500A68C87 /* WebRTCClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRTCClient.swift; sourceTree = "<group>"; };
 		2C752D602C274E95005646E1 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		2C752D622C275050005646E1 /* VideoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoViewController.xib; sourceTree = "<group>"; };
-		2C752D642C27507A005646E1 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		2C88B4022C27F57D0069909C /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,7 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				2C520BBC2C26BFA800A68C87 /* MainViewController.swift */,
-				2C752D642C27507A005646E1 /* MainViewController.xib */,
+				2C88B4022C27F57D0069909C /* MainViewController.xib */,
 			);
 			path = MainScreen;
 			sourceTree = "<group>";
@@ -224,7 +224,7 @@
 				2C520BA02C26BDE400A68C87 /* Assets.xcassets in Resources */,
 				2C520BA32C26BDE400A68C87 /* Base in Resources */,
 				2C752D632C275050005646E1 /* VideoViewController.xib in Resources */,
-				2C752D652C27507A005646E1 /* MainViewController.xib in Resources */,
+				2C88B4032C27F57D0069909C /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
