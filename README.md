@@ -71,20 +71,31 @@ This iOS application uses WebRTC for real-time audio and video communication, wi
   ## Run instructions
   
   1. Run the app on two devices with the signaling server running.
+
   2. Make sure both of the devices are connected to the signaling server it shows the Co.
+  
   3. On the first device, click on 'Send Request For Join Over Call' - this will generate a local offer SDP and send it to the other client using the signaling server.
+  
   4. Wait until the second device receives the request from the first device.
+ 
   5. Click on 'Accept Request To Join Over Call' on the second device.
+ 
   6. when the answer arrives to the first device, both of the devices should be now connected to each other using webRTC and Status Will be Connected, try to talk or 
     click on the 'join video' button to start capturing video.
+ 
   7. To restart the process, kill both apps and repeat steps 1-6.
 
    
 ## Contributing
+
 1. Fork the repository.
+
 2. Create a new branch (git checkout -b feature-branch).
+
 3. Make your changes and commit them (git commit -m 'Add new feature').
+
 4. Push to the branch (git push origin feature-branch).
+
 5. Create a pull request.
 
 *Thank You For Checking out the WebRTC iOS Application*
