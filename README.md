@@ -37,9 +37,8 @@ The mechanism used for establishing, coordinating, and controlling communication
 
 ## About iOS App i Created 
 
-This iOS application uses WebRTC for real-time audio and video communication, with signaling implemented in Swift using Apple's native WebSocket. The app allows users to connect and communicate seamlessly with each other. 
+**Features**
 
-## Features
 - Real-time audio and video communication
   
 - Low latency and high-quality media streaming
