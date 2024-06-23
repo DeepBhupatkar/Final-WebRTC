@@ -64,16 +64,27 @@ This iOS application uses WebRTC for real-time audio and video communication, wi
     .package(url: "https://github.com/stasel/WebRTC.git", .upToNextMajor("126.0.0"))
           ]
     ```
+3. Navigate to the TaskWebRTC-main folder. In TaskWebRTC-main, open the folder called WebRTCAVAPP. In that folder, run WebRTCAVAPP.xcodeproj to launch the app in xcode.
 
+4. Navigate to the Swift folder available in Final-WebRTC. In the Swift folder, run SignalingServer.xcodeproj.
+   
+  ## Run instructions
+  
+  1. Run the app on two devices with the signaling server running.
+  2. Make sure both of the devices are connected to the signaling server it shows the Co.
+  3. On the first device, click on 'Send Request For Join Over Call' - this will generate a local offer SDP and send it to the other client using the signaling server.
+  4. Wait until the second device receives the request from the first device.
+  5. Click on 'Accept Request To Join Over Call' on the second device.
+  6. when the answer arrives to the first device, both of the devices should be now connected to each other using webRTC and Status Will be Connected, try to talk or 
+    click on the 'join video' button to start capturing video.
+  7. To restart the process, kill both apps and repeat steps 1-6.
 
+   
 ## Contributing
-
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
-
-1. Fork the Project
-2. Create your Feature Branch (\`git checkout -b feature/AmazingFeature\`)
-3. Commit your Changes (\`git commit -m 'Add some AmazingFeature'\`)
-4. Push to the Branch (\`git push origin feature/AmazingFeature\`)
-5. Open a Pull Request
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature-branch).
+3. Make your changes and commit them (git commit -m 'Add new feature').
+4. Push to the branch (git push origin feature-branch).
+5. Create a pull request.
 
 *Thank You For Checking out the WebRTC iOS Application*
