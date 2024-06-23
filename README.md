@@ -1,4 +1,4 @@
-# WebRTC iOS App (CONNECT BEYOND WORDS: YOUR WORLD, YOUR VOICE, YOUR VISION)
+ *WebRTC iOS App (CONNECT BEYOND WORDS: YOUR WORLD, YOUR VOICE, YOUR VISION)*
 
 # Developed an iOS application for real-time audio and video calling using WebRTC technology Created By Deep Bhupatkar. 
 
@@ -66,5 +66,14 @@ This iOS application uses WebRTC for real-time audio and video communication, wi
     ```
 
 
+## Contributing
 
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
+1. Fork the Project
+2. Create your Feature Branch (\`git checkout -b feature/AmazingFeature\`)
+3. Commit your Changes (\`git commit -m 'Add some AmazingFeature'\`)
+4. Push to the Branch (\`git push origin feature/AmazingFeature\`)
+5. Open a Pull Request
+
+*Thank You For Checking out the WebRTC iOS Application*
