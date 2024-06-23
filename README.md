@@ -59,11 +59,11 @@ This iOS application uses WebRTC for real-time audio and video communication, wi
    ```
 2. Install Dependancy :
    
-```bash
- dependencies: [
+   ```bash
+   dependencies: [
     .package(url: "https://github.com/stasel/WebRTC.git", .upToNextMajor("126.0.0"))
-]
-  ```
+          ]
+    ```
 
 
 
