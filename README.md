@@ -35,7 +35,7 @@ The mechanism used for establishing, coordinating, and controlling communication
   transfers information between both users. Finally, the connection either fails or succeeds.
   
 
-## About iOS App i Created 
+## Now, About iOS App
 
 **Features**
 
