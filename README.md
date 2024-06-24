@@ -73,7 +73,7 @@ The mechanism used for establishing, coordinating, and controlling communication
   
   1. Run the app on two devices with the signaling server running.
 
-  2. Make sure both of the devices are connected to the signaling server it shows the Co.
+  2. Make sure both of the devices are connected to the signaling server it shows the connected in screen.
   
   3. On the first device, click on 'Send Request For Join Over Call' - this will generate a local offer SDP and send it to the other client using the signaling server.
   
